@@ -5,7 +5,10 @@
   "description": "Bridges your local terminal workflow with ChatGPT and Claude — no cloud APIs required.",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "alarms",
+    "tabs",
+    "scripting"
   ],
   "host_permissions": [
     "https://chatgpt.com/*",

@@ -4,10 +4,12 @@
   "description": "Local WebSocket broadcast server for the ContextSync Chrome Extension. Pipes stdin lines to connected browser tabs.",
   "main": "server.js",
   "bin": {
-    "ctx": "./server.js"
+    "ctx": "./client.js",
+    "ctx-server": "./server.js"
   },
   "scripts": {
     "start": "node server.js",
+    "server": "node server.js",
     "dev": "node --watch server.js"
   },
   "keywords": [

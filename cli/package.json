@@ -1,0 +1,31 @@
+{
+  "name": "contextsync-cli",
+  "version": "1.0.0",
+  "description": "Local WebSocket broadcast server for the ContextSync Chrome Extension. Pipes stdin lines to connected browser tabs.",
+  "main": "server.js",
+  "bin": {
+    "ctx": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "contextsync",
+    "chrome-extension",
+    "websocket",
+    "developer-tools",
+    "chatgpt",
+    "claude",
+    "llm",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

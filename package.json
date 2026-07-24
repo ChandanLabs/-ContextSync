@@ -1,0 +1,20 @@
+{
+  "name": "contextsync",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000-\u0000C\u0000o\u0000n\u0000t\u0000e\u0000x\u0000t\u0000S\u0000y\u0000n\u0000c\u0000\r\u0000 \u0000",
+  "homepage": "https://github.com/ChandanLabs/-ContextSync#readme",
+  "bugs": {
+    "url": "https://github.com/ChandanLabs/-ContextSync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandanLabs/-ContextSync.git"
+  },
+  "license": "ISC",
+  "author": "ChandanLabs",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
